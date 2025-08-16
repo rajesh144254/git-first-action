@@ -1,0 +1,10 @@
+name: Second workflows
+on: workflow_dispatch
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print Hello World
+        run: echo "Hello World!"
+      - name: print task is completed
+        run: echo "Task is completed!"
